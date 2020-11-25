@@ -8,6 +8,7 @@ import javax.faces.view.ViewScoped;
 import javax.inject.Named;
 
 import com.israelferreira.persistence.ejb3.entities.Product;
+import com.israelferreira.persistence.ejb3.sessionbeans.FeaturedProductBean;
 import com.israelferreira.persistence.ejb3.sessionbeans.ProductRepository;
 
 @Named
@@ -18,6 +19,9 @@ public class ProductManagedBean implements Serializable {
 	
 	@EJB
 	private ProductRepository repository;
+	
+	@EJB
+	private FeaturedProductBean featuredProductBean;
 	
 	private Product product = new Product();
 	
@@ -36,6 +40,10 @@ public class ProductManagedBean implements Serializable {
 		return this.productsCache;
 	}
 
+	public Product getFeaturedProduct() {
+		return this.featuredProductBean.getFeaturedProduct();
+	}
+	
 	public Product getProduct() {
 		return product;
 	}
