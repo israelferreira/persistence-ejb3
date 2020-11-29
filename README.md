@@ -21,10 +21,10 @@ A interface TimerService do EJB foi utilizada para criar um temporizador que mud
 
 ## Softwares usados no desenvolvimento
 
-* [OpenJDK 11 (LTS) x64](https://adoptopenjdk.net/)
-* [WildFly 21.0.0](https://www.wildfly.org/downloads/)
-* [Eclipse IDE 2020-09 - Java EE](https://www.eclipse.org/downloads/packages/)
-* [MySQL Community Server 8.0](https://dev.mysql.com/downloads/mysql/)
+* [OpenJDK 11 (LTS) - JVM Eclipse OpenJ9](https://adoptopenjdk.net)
+* [WildFly 21.0.0](https://www.wildfly.org/downloads)
+* [Eclipse IDE 2020-09 for Enterprise Java](https://www.eclipse.org/downloads/packages)
+* [MySQL Community Server 8.0](https://dev.mysql.com/downloads/mysql)
 
 
 ## Como executar o projeto
