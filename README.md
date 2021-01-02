@@ -103,3 +103,7 @@ O script para criar o banco de dados está no arquivo "MySQL8_persistence-ejb3.s
 
 Após esses passos, o projeto deve ser executado no servidor WildFly 21. A URL de acesso à página é: http://localhost:8080/persistence-ejb3
 
+### Autor
+
+Feito por Israel Ferreira. 👋🏽 Entre em contato!
+[![Email Badge](https://img.shields.io/badge/-israelferreira5@outlook.com-c14438?style=for-the-badge&color=blue&link=mailto:israelferreira5@outlook.com)](mailto:israelferreira5@outlook.com)
